@@ -1,6 +1,13 @@
-# ignore folders
+# upstream
 node_modules
 samples
-
-# ignore config
 config.json
+
+# local state, secrets and logs — never commit
+.env
+state/
+logs/
+*.bak
+
+# personal notes for Claude Code
+CLAUDE.md
